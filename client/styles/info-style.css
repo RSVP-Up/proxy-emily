@@ -25,7 +25,7 @@
 
 .help{
   position: relative;
-  bottom: 29px;
+  bottom: 27px;
   left: 170px;
 }
 
@@ -42,4 +42,62 @@
 .help-icon {
   color: #c5c4c4;
   cursor: pointer;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.info-text {
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding-top: 3px;
+}
+
+.icon {
+  color: #757575;
+}
+
+.img-map {
+  width:340px;
+  height: 214px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.loc-link:hover {
+  color:#00a2c7;
+}
+
+.calendar-btn {
+  padding: 0px;
+  color: #00a2c7;
+  cursor: pointer;
+}
+
+.calendar-btn:hover {
+  text-decoration: underline;
+}
+
+.report {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.menu-item {
+  width: 81px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.menu-item:hover {
+  background-color: #e4e9ed
 }
