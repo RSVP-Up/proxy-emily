@@ -1,0 +1,45 @@
+.info-container {
+  width: 360px;
+  height: 738px;
+  background-color: #f6f7f8;
+  padding: 40px 0px 0px;
+}
+
+.org-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.org-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 700
+}
+
+.private-text {
+  font-family: 'Roboto', sans-serif;
+  color:  #757575;
+  font-size: 14px;
+}
+
+.help{
+  position: relative;
+  bottom: 29px;
+  left: 170px;
+}
+
+.help-text {
+  width: 348px;
+  height: 120px;
+  background-color:#2e3e48;
+  color: #fff;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.help-icon {
+  color: #c5c4c4;
+  cursor: pointer;
+}
