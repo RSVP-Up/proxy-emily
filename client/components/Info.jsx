@@ -4,7 +4,6 @@ import {
   Paper,
   ClickAwayListener,
   Menu,
-  MenuItem,
   Divider
 } from '@material-ui/core';
 import HelpIcon from '@material-ui/icons/Help';
