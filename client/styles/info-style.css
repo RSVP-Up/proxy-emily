@@ -1,0 +1,103 @@
+.info-container {
+  width: 360px;
+  height: 738px;
+  background-color: #f6f7f8;
+  padding: 40px 0px 0px;
+}
+
+.org-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.org-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 700
+}
+
+.private-text {
+  font-family: 'Roboto', sans-serif;
+  color:  #757575;
+  font-size: 14px;
+}
+
+.help{
+  position: relative;
+  bottom: 27px;
+  left: 170px;
+}
+
+.help-text {
+  width: 348px;
+  height: 120px;
+  background-color:#2e3e48;
+  color: #fff;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.help-icon {
+  color: #c5c4c4;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.info-text {
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding-top: 3px;
+}
+
+.icon {
+  color: #757575;
+}
+
+.img-map {
+  width:340px;
+  height: 214px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.loc-link:hover {
+  color:#00a2c7;
+}
+
+.calendar-btn {
+  padding: 0px;
+  color: #00a2c7;
+  cursor: pointer;
+}
+
+.calendar-btn:hover {
+  text-decoration: underline;
+}
+
+.report {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.menu-item {
+  width: 81px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.menu-item:hover {
+  background-color: #e4e9ed
+}
